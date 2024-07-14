@@ -1,6 +1,6 @@
 import styles from './Banner.module.css';
 import circuloColorido from 'assets/circulo_colorido.png';
-import minhaFoto from 'assets/minha-foto.jpeg';
+import minhaFoto from 'assets/Untitled.jpeg';
 
 export default function Banner() {
   return (
