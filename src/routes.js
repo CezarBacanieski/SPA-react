@@ -4,6 +4,8 @@ import SobreMim from './paginas/SobreMim';
 import Menu from './components/Menu';
 import Rodape from './components/Rodape';
 import PaginaPadrao from 'components/PaginaPadrao';
+import Post from 'paginas/Post';
+import NaoEncontrada from 'paginas/NaoEncontrada';
 
 function App() {
   return (
@@ -13,9 +15,10 @@ function App() {
         <Route path='/' element={<PaginaPadrao />}>
           <Route index element={<Inicio />} />
           <Route path='sobreMim' element={<SobreMim />} />
+          <Route path='posts/:id' element={<Post />} />
         </Route>
 
-        <Route path='*' element={<h1>404... Page Not Found</h1>} />
+        <Route path='*' element={<NaoEncontrada />} />
       </Routes>
 
       <Rodape />
