@@ -3,6 +3,8 @@
 
 Este projeto foi desenvolvido para aprimorar minhas habilidades de desenvolvimento front-end, utilizando React para criar uma Single Page Application (SPA). A aplicação funciona como um portfólio, apresentando minhas habilidades e projetos de forma interativa.
 
+![Screenshot da Página de Negociação](./app/src/assets/image.png)
+
 ## Tecnologias Utilizadas
 
 - **React**: Biblioteca JavaScript para construção de interfaces de usuário.
